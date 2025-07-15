@@ -53,23 +53,18 @@ footer{
 .linkedin{
   color: whitesmoke !important;
 }
-
 /* resposive */
 @media(max-width:567px){
 .first-img{
   width: 100% !important;
 }
 }
-@media(max-width:400px){
-  .input-subscribe button{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+@media(max-width:390px){
+  .input-subscribe input{
+    width: 160px !important;
   }
-}
-@media(max-width:350px){
   .input-subscribe button{
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-    
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
