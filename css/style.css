@@ -59,6 +59,11 @@ footer{
   width: 100% !important;
 }
 }
+@media(max-width:450px){
+  .input-subscribe input{
+    width: 190px !important;
+  }
+}
 @media(max-width:390px){
   .input-subscribe input{
     width: 160px !important;
