@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: whitesmoke;
+}
+/* bascics */
+.container{
+    width: 88% !important;
+    margin: auto !important;
+}
+button , a{
+  cursor: pointer !important;
+  transition: .3s ease-in-out;
+}
+button:hover {
+   background-color: #333 !important;
+}
+/* header & sidebar */
+.sidebar{
+    display: none;
+    transition: .5s ease-in-out ;
+    transform: translateX(100%);
+}
+/* Customers Say section */
+.testimonail{
+  background-color: #333;
+}
+.test1{
+  outline: 12.5px solid #fff !important;
+}
+/* footer */
+footer{
+  background-color: #222;
+  color: #fff;
+}
+.links-footer div{
+  background-color: #333;
+  transition: .3s ease-in-out;
+}
+.links-footer div:hover{
+  background-color: #444;
+}
+.linkedin{
+  color: whitesmoke !important;
+}
+
+/* resposive */
+@media(max-width:567px){
+.first-img{
+  width: 100% !important;
+}
+}
+@media(max-width:400px){
+  .input-subscribe button{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+@media(max-width:350px){
+  .input-subscribe button{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    
+  }
+}
